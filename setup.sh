@@ -81,6 +81,7 @@ echo "Please review the file manually to ensure it is safe."
 
 mv "$tmpfile" /usr/local/bin/ssh-key-sync.sh
 chmod +x /usr/local/bin/ssh-key-sync.sh
+chmod 755 /usr/local/bin/ssh-key-sync.sh
 echo "Moved to /usr/local/bin/ssh-key-sync.sh and made it executable."
 echo ""
 echo "To set up a cron job to run every 15 minutes, (make sure to switch to correct user eg invaliduser) use this one-liner:"
